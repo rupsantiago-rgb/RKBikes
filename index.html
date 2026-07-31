@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>RKBikes</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RKBikes</title>
 
+<!-- Connect the CSS file -->
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1 id="titulo">RKBikes</h1>
+<!-- Main navigation menu -->
+<nav>
 
-<img src="images/RKBikes.png" alt="RKBikes.png" width="200">
+<!-- Company logo image -->
+<img src="images/RKBikes.png" alt="RKBikes Logo" width="80">
 
+<!-- Navigation links -->
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Bikes</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Login</a></li>
+</ul>
+
+</nav>
+
+<!-- Welcome section -->
+<header>
+
+<h1>Welcome to RKBikes</h1>
+<p>Rent your bike quickly, safely and easily.</p>
+
+<!-- Language change buttons -->
 <button onclick="cambiarIdioma('es')">ES</button>
 <button onclick="cambiarIdioma('en')">EN</button>
 
+</header>
+
+<!-- Bicycle information cards -->
+<section class="cards">
+
+<div class="card">
+<h2>Mountain Bike</h2>
+<p>Perfect for adventures.</p>
+</div>
+
+<div class="card">
+<h2>City Bike</h2>
+<p>Ideal for daily rides.</p>
+</div>
+
+<div class="card">
+<h2>Electric Bike</h2>
+<p>Comfortable and modern.</p>
+</div>
+
+</section>
+
+<!-- Bottom page information -->
+<footer>
+<p>© 2026 RKBikes</p>
+</footer>
+
+<!-- Connect the JavaScript file -->
 <script src="script.js"></script>
+
 </body>
 </html>

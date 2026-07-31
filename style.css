@@ -1,6 +1,78 @@
+/* General page style */
 body{
-    text-align:center;
-    font-family:Arial;
-    background:#111;
-    color:white;
+font-family: Arial;
+margin: 0;
+background-color: #f4f4f4;
+}
+
+/* Navigation bar style */
+nav{
+background-color: rgb(1, 63, 1);
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+
+/* Navigation menu list */
+nav ul{
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+/* Navigation links style */
+nav a{
+color: white;
+text-decoration: none;
+}
+
+/* Welcome section style */
+header{
+text-align: center;
+padding: 30px;
+}
+
+/* Card container */
+.cards{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+/* Individual bike card */
+.card{
+background-color: white;
+border: 1px solid gray;
+padding: 20px;
+width: 200px;
+text-align: center;
+}
+
+/* Footer section style */
+footer{
+background-color: rgb(1, 63, 1);
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
+
+/* Responsive layout for small screens */
+@media (max-width:700px){
+
+.cards{
+flex-direction: column;
+align-items: center;
+}
+
+nav{
+flex-direction: column;
+}
+
+nav ul{
+flex-direction: column;
+text-align: center;
+}
+
 }
