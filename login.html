@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login - RKBikes</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+<nav>
+
+<img src="images/RKKBikes.png" alt="RKBikes Logo" width="68">
+<span id="welcomeMessage" style="color: white; font-weight: bold;" hidden></span>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<label for="nav-toggle" class="hamburger">&#9776;</label>
+
+<ul>
+
+<li>
+<button
+id="languageButton"
+type="button"
+onclick="cambiarIdioma()">
+Change to Spanish
+</button>
+</li>
+
+<li>
+<a href="index.html" id="navHome">Home</a>
+</li>
+
+<li>
+<a href="bikes.html" id="navBikes">Bikes</a>
+</li>
+
+<li>
+<a href="about.html" id="navAbout">About Us</a>
+</li>
+
+<li>
+<a href="login.html" id="navLogin">Login</a>
+</li>
+
+</ul>
+
+</nav>
+
+
+
+<header>
+
+<div class="login-box">
+
+<h1 id="loginTitle">
+Login
+</h1>
+
+<p id="loginDescription">
+Welcome back to RKBikes. Log in to access your account
+</p>
+
+
+<form action="login.php" method="POST">
+
+<input
+type="text"
+id="username"
+name="username"
+placeholder="Username"
+required
+>
+
+<input
+type="password"
+id="password"
+name="password"
+placeholder="Password"
+required
+>
+
+<button
+type="submit"
+id="loginButton">
+Login
+</button>
+
+<div id="feedback"></div>
+
+</form>
+
+<p>
+
+<span id="noAccount">
+Don't have an account?
+</span>
+
+<a href="register.html" id="registerHere">
+Register here
+</a>
+
+</p>
+
+</div>
+
+</header>
+
+
+<footer>
+
+<p id="footer">
+© 2026 RKBikes
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+<script src="idiomas.js"></script>
+
+</body>
+
+</html>

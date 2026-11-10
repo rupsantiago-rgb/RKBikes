@@ -1,78 +1,432 @@
-/* General page style */
-body{
-font-family: Arial;
-margin: 0;
-background-color: #f4f4f4;
+/* =========================
+   GENERAL
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f4;
+    color: #222;
 }
 
-/* Navigation bar style */
-nav{
-background-color: rgb(1, 63, 1);
-color: white;
-display: flex;
-justify-content: space-between;
-padding: 15px;
+/* =========================
+   HAMBURGER
+========================= */
+.nav-toggle {
+    display: none !important;
 }
 
-/* Navigation menu list */
-nav ul{
-list-style: none;
-display: flex;
-gap: 20px;
+.hamburger {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
 }
 
-/* Navigation links style */
-nav a{
-color: white;
-text-decoration: none;
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    background-color: rgb(1, 63, 1);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 4px 30px;
 }
 
-/* Welcome section style */
-header{
-text-align: center;
-padding: 30px;
+nav img {
+    height: 36px;
+    width: auto;
 }
 
-/* Card container */
-.cards{
-display: flex;
-justify-content: center;
-gap: 20px;
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 25px;
+
+    margin: 0;
+    padding: 0;
 }
 
-/* Individual bike card */
-.card{
-background-color: white;
-border: 1px solid gray;
-padding: 20px;
-width: 200px;
-text-align: center;
+nav a {
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: opacity 0.2s ease;
 }
 
-/* Footer section style */
-footer{
-background-color: rgb(1, 63, 1);
-color: white;
-text-align: center;
-padding: 10px;
-margin-top: 20px;
+nav a:hover {
+    opacity: 0.7;
 }
 
-/* Responsive layout for small screens */
-@media (max-width:700px){
 
-.cards{
-flex-direction: column;
-align-items: center;
+/* =========================
+   HEADER
+========================= */
+
+header {
+    text-align: center;
+    margin-top: 5px;
+    padding: 6px 20px;
 }
 
-nav{
-flex-direction: column;
+header h1 {
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 8px;
 }
 
-nav ul{
-flex-direction: column;
-text-align: center;
+header p {
+    font-size: 18px;
+    color: #555;
 }
 
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 230px);
+
+    justify-content: center;
+
+    gap: 25px;
+
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    width: 200px;
+
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 20px auto 30px;
+}
+
+input {
+    padding: 11px;
+
+    width: 220px;
+
+    border: 1px solid #bbb;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+
+    border-color: rgb(1, 63, 1);
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    padding: 10px 22px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: rgb(1, 63, 1);
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease,
+                background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(0, 90, 0);
+
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* =========================
+   LOGIN AND REGISTER BOX
+========================= */
+
+.login-box {
+    background-color: rgb(235, 237, 235);
+
+    border: 2px solid rgb(0, 100, 0);
+
+    border-radius: 10px;
+
+    padding: 40px 30px;
+
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.login-box h1 {
+    color: #222;
+}
+
+.login-box p {
+    color: #222;
+}
+
+.login-box input {
+    border: 1px solid rgb(0, 100, 0);
+
+    border-radius: 6px;
+
+    background-color: rgb(222, 217, 217);
+
+    color: black;
+}
+
+.login-box button {
+    background-color: rgb(1, 63, 1);
+
+    border: none;
+
+    border-radius: 6px;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+.login-box button:hover {
+    background-color: rgb(0, 90, 0);
+
+    color: white;
+}
+
+.login-box a {
+    color: #076007;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+header a {
+    color: rgb(1, 63, 1);
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FEEDBACK
+========================= */
+
+.error {
+    color: #c62828;
+
+    font-weight: bold;
+
+    margin-top: 5px;
+}
+
+.success {
+    color: #2e7d32;
+
+    font-weight: bold;
+
+    margin-top: 5px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: rgb(1, 63, 1);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin-top: 40px;
+}
+
+/* =========================
+   TABLET Y MÓVIL (Hasta 900px) - Menú hamburguesa + 2 columnas
+========================= */
+@media (max-width: 900px) {
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    
+    .hamburger {
+        display: block;
+    }
+
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 12px;
+        padding-top: 15px;
+        padding-left: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        margin-top: 10px;
+    }
+
+
+    .nav-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    
+    .cards {
+        grid-template-columns: repeat(2, 220px);
+    }
+
+}
+
+
+/* =========================
+   PHONES
+========================= */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+}
+/* =========================
+   LANGUAGE BUTTON
+========================= */
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+nav a,
+nav button {
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+
+    color: white;
+}
+
+nav button {
+    border: none;
+    background: none;
+
+    cursor: pointer;
+
+    transition: opacity 0.2s ease;
+}
+
+nav a:hover,
+nav button:hover {
+    opacity: 0.7;
+}
+
+nav button:hover {
+    background: none;
+    transform: none;
 }

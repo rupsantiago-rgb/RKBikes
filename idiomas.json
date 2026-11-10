@@ -1,0 +1,177 @@
+{
+    "es": {
+        "navHome": "Inicio",
+        "navBikes": "Bicicletas",
+        "navAbout": "Sobre nosotros",
+        "navLogin": "Iniciar sesión",
+        "navLogout": "Cerrar sesión",
+
+        "homeTitle": "Bienvenido a RKBikes",
+        "homeDescription": "Alquila tu bicicleta de forma rápida, segura y sencilla.",
+        "homeSubtitle": "Elige la bicicleta perfecta para tu próximo paseo.",
+
+        "mountain": "Bicicleta de montaña",
+        "mountainText": "Perfecta para aventuras y paseos al aire libre.",
+
+        "city": "Bicicleta urbana",
+        "cityText": "Ideal para paseos cómodos por la ciudad.",
+
+        "electric": "Bicicleta eléctrica",
+        "electricText": "Cómoda, moderna y fácil de usar.",
+
+        "bikesTitle": "Bicicletas disponibles",
+        "bikesDescription": "Elige la bicicleta que mejor se adapte a tus necesidades.",
+
+        "bmx": "Bicicleta BMX",
+        "bmxText": "Ideal para trucos, saltos y paseos recreativos.",
+
+        "road": "Bicicleta de carretera",
+        "roadText": "Rápida y ligera, perfecta para recorridos largos.",
+
+        "hybrid": "Bicicleta híbrida",
+        "hybridText": "Una combinación cómoda para la ciudad y paseos al aire libre.",
+
+        "available": "Disponible",
+        "notAvailable": "No disponible",
+        "rent": "Alquilar",
+
+        "aboutTitle": "Sobre RKBikes",
+
+        "aboutDescription": "RKBikes es una plataforma simple y rápida para encontrar y alquilar bicicletas.",
+
+        "purposeTitle": "Nuestro propósito",
+        "purposeText": "Nuestro propósito es facilitar el alquiler de bicicletas para las personas que quieren recorrer la ciudad, disfrutar de actividades al aire libre o simplemente elegir una forma diferente de transporte.",
+
+        "serviceTitle": "Nuestro servicio",
+        "serviceText": "RKBikes ofrece diferentes tipos de bicicletas para distintas necesidades. Los usuarios pueden explorar las bicicletas disponibles, consultar su estado actual y elegir la opción que mejor se adapte a su paseo.",
+
+        "whyTitle": "¿Por qué elegir RKBikes?",
+        "whyText": "Nos enfocamos en crear un sitio web claro y fácil de usar. Nuestro objetivo es proporcionar información útil sin hacer que el proceso de alquiler sea innecesariamente complicado.",
+
+        "visionTitle": "Nuestra visión",
+        "visionText": "Queremos que RKBikes se convierta en una plataforma práctica para el alquiler de bicicletas, fomentando su uso como un medio de transporte cómodo, accesible y sostenible.",
+
+        "technologyTitle": "Tecnología",
+        "technologyText": "El proyecto combina HTML, CSS, JavaScript, PHP y SQL para crear un sitio web funcional y fácil de usar. Estas tecnologías nos ayudan a crear la interfaz, administrar las cuentas de los usuarios y conectar el sitio web con una base de datos.",
+
+        "commitmentTitle": "Nuestro compromiso",
+        "commitmentText": "Nuestro objetivo es seguir mejorando RKBikes haciendo que el sitio web sea más adaptable, accesible y cómodo de usar en computadoras, tablets y dispositivos móviles.",
+
+        "loginTitle": "Iniciar sesión",
+        "loginDescription": "Bienvenido nuevamente a RKBikes. Inicia sesión para acceder a tu cuenta.",
+        "username": "Usuario",
+        "password": "Contraseña",
+        "loginButton": "Iniciar sesión",
+        "noAccount": "¿No tienes una cuenta?",
+        "registerHere": "Regístrate aquí",
+
+        "registerTitle": "Crear una cuenta",
+        "confirmPassword": "Confirmar contraseña",
+        "registerButton": "Registrarse",
+        "alreadyAccount": "¿Ya tienes una cuenta?",
+        "loginHere": "Inicia sesión aquí.",
+
+        "usernameError": "El usuario debe tener entre 8 y 18 caracteres.",
+        "passwordError": "La contraseña debe tener entre 8 y 18 caracteres.",
+        "passwordMismatch": "Las contraseñas no coinciden.",
+        "changeToSpanish": "Cambiar a Español",
+        "changeToEnglish": "Change to English",
+        "footer": "© 2026 RKBikes",
+        "sameUserPass": "El usuario y la contraseña no pueden ser iguales.",
+        "specialChar": "La contraseña debe contener al menos un carácter especial.",
+        "regFailed": "El registro no se pudo completar.",
+        "generalError": "Error en el registro.",
+        "invalidLogin": "Usuario o contraseña incorrectos.",
+        "regSuccess": "¡Registro exitoso! Inicia sesión."
+    },
+    
+
+    "en": {
+        "navHome": "Home",
+        "navBikes": "Bikes",
+        "navAbout": "About Us",
+        "navLogin": "Login",
+        "navLogout": "Logout",
+        
+        "homeTitle": "Welcome to RKBikes",
+        "homeDescription": "Rent your bike quickly, safely and easily.",
+        "homeSubtitle": "Choose the perfect bike for your next ride.",
+
+        "mountain": "Mountain Bike",
+        "mountainText": "Perfect for adventures and outdoor rides.",
+
+        "city": "City Bike",
+        "cityText": "Ideal for comfortable daily rides around the city.",
+
+        "electric": "Electric Bike",
+        "electricText": "Comfortable, modern and easy to ride.",
+
+        "bikesTitle": "Available Bikes",
+        "bikesDescription": "Choose the bicycle that best suits your needs.",
+
+        "bmx": "BMX Bike",
+        "bmxText": "Great for tricks, jumps and recreational riding.",
+
+        "road": "Road Bike",
+        "roadText": "Fast and lightweight, perfect for long-distance rides.",
+
+        "hybrid": "Hybrid Bike",
+        "hybridText": "A comfortable combination for city and outdoor rides.",
+
+        "available": "Available",
+        "notAvailable": "Not Available",
+        "rent": "Rent",
+
+        "aboutTitle": "About RKBikes",
+
+        "aboutDescription": "RKBikes is a simple and fast platform to find and rent bicycles.",
+
+        "purposeTitle": "Our Purpose",
+        "purposeText": "Our purpose is to make bicycle rental easier for people who want to travel around the city, enjoy outdoor activities or simply choose a different way of transportation.",
+
+        "serviceTitle": "Our Service",
+        "serviceText": "RKBikes offers different types of bicycles for different needs. Users can explore the available bikes, check their current status and choose the option that best suits their type of ride.",
+
+        "whyTitle": "Why Choose RKBikes?",
+        "whyText": "We focus on creating a clear and easy-to-use website. Our goal is to provide useful information without making the rental process unnecessarily complicated.",
+
+        "visionTitle": "Our Vision",
+        "visionText": "We want RKBikes to become a practical platform for bicycle rental, encouraging people to use bicycles as a comfortable, accessible and sustainable means of transportation.",
+
+        "technologyTitle": "Technology",
+        "technologyText": "The project combines HTML, CSS, JavaScript, PHP and SQL to create a functional and easy-to-use website. These technologies help us build the interface, manage user accounts and connect the website to a database.",
+
+        "commitmentTitle": "Our Commitment",
+        "commitmentText": "We aim to keep improving RKBikes by making the website more responsive, accessible and comfortable to use on computers, tablets and mobile devices.",
+
+        "loginTitle": "Login",
+        "loginDescription": "Welcome back to RKBikes. Log in to access your account.",
+        "username": "Username",
+        "password": "Password",
+        "loginButton": "Login",
+        "noAccount": "Don't have an account?",
+        "registerHere": "Register here",
+
+        "registerTitle": "Create an Account",
+        "confirmPassword": "Confirm Password",
+        "registerButton": "Register",
+        "alreadyAccount": "Already have an account?",
+        "loginHere": "Log in here.",
+
+        "usernameError": "Username must have between 8 and 18 characters.",
+        "passwordError": "Password must have between 8 and 18 characters.",
+        "passwordMismatch": "Passwords do not match.",
+
+        "sameUserPass": "Username and password cannot be the same.",
+        "specialChar": "Password must contain at least one special character.",
+        "regFailed": "Registration could not be completed.",
+        "generalError": "Registration failed.",
+        "invalidLogin": "Invalid username or password.",
+        "regSuccess": "Registration successful!",
+
+        "changeToSpanish": "Cambiar a Español",
+        "changeToEnglish": "Change to English",
+        
+        "footer": "© 2026 RKBikes"
+    }
+}

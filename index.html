@@ -1,71 +1,146 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>RKBikes</title>
 
-<!-- Connect the CSS file -->
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- Main navigation menu -->
 <nav>
 
-<!-- Company logo image -->
-<img src="images/RKBikes.png" alt="RKBikes Logo" width="80">
+<img src="images/RKKBikes.png" alt="RKBikes Logo" width="68">
+<span id="welcomeMessage" style="color: white; font-weight: bold;" hidden></span>
 
-<!-- Navigation links -->
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<label for="nav-toggle" class="hamburger">&#9776;</label>
+
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Bikes</a></li>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Login</a></li>
+
+<li>
+<button
+id="languageButton"
+type="button"
+onclick="cambiarIdioma()">
+Change to Spanish
+</button>
+</li>
+
+<li>
+<a href="index.html" id="navHome">Home</a>
+</li>
+
+<li>
+<a href="bikes.html" id="navBikes">Bikes</a>
+</li>
+
+<li>
+<a href="about.html" id="navAbout">About Us</a>
+</li>
+
+<li>
+<a href="login.html" id="navLogin">Login</a>
+</li>
+
 </ul>
 
 </nav>
 
-<!-- Welcome section -->
 <header>
 
-<h1>Welcome to RKBikes</h1>
-<p>Rent your bike quickly, safely and easily.</p>
+<h1 id="homeTitle">
+Welcome to RKBikes
+</h1>
 
-<!-- Language change buttons -->
-<button onclick="cambiarIdioma('es')">ES</button>
-<button onclick="cambiarIdioma('en')">EN</button>
+<p id="homeDescription">
+Rent your bike quickly, safely and easily.
+</p>
+
+<p id="homeSubtitle">
+Choose the perfect bike for your next ride.
+</p>
 
 </header>
 
-<!-- Bicycle information cards -->
+
 <section class="cards">
 
 <div class="card">
-<h2>Mountain Bike</h2>
-<p>Perfect for adventures.</p>
+
+<h2 id="mountain">
+Mountain Bike
+</h2>
+
+<img
+src="images/indeximages/mountainbike.jpg"
+alt="Mountain Bike"
+class="card-img"
+>
+
+<p id="mountainText">
+Perfect for adventures and outdoor rides.
+</p>
+
 </div>
 
-<div class="card">
-<h2>City Bike</h2>
-<p>Ideal for daily rides.</p>
-</div>
 
 <div class="card">
-<h2>Electric Bike</h2>
-<p>Comfortable and modern.</p>
+
+<h2 id="city">
+City Bike
+</h2>
+
+<img
+src="images/indeximages/citybike.jpg"
+alt="City Bike"
+class="card-img"
+>
+
+<p id="cityText">
+Ideal for comfortable daily rides around the city.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="electric">
+Electric Bike
+</h2>
+
+<img
+src="images/indeximages/electricbike.jpg"
+alt="Electric Bike"
+class="card-img"
+>
+
+<p id="electricText">
+Comfortable, modern and easy to ride.
+</p>
+
 </div>
 
 </section>
 
-<!-- Bottom page information -->
+
 <footer>
-<p>© 2026 RKBikes</p>
+
+<p id="footer">
+© 2026 RKBikes
+</p>
+
 </footer>
 
-<!-- Connect the JavaScript file -->
+
 <script src="script.js"></script>
+<script src="idiomas.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bikes - RKBikes</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<img src="images/RKKBikes.png" alt="RKBikes Logo" width="68">
+<span id="welcomeMessage" style="color: white; font-weight: bold;" hidden></span>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle">
+<label for="nav-toggle" class="hamburger">&#9776;</label>
+
+<ul>
+
+<li>
+<button
+id="languageButton"
+type="button"
+onclick="cambiarIdioma()">
+Change to Spanish
+</button>
+</li>
+
+<li>
+<a href="index.html" id="navHome">Home</a>
+</li>
+
+<li>
+<a href="bikes.html" id="navBikes">Bikes</a>
+</li>
+
+<li>
+<a href="about.html" id="navAbout">About Us</a>
+</li>
+
+<li>
+<a href="login.html" id="navLogin">Login</a>
+</li>
+
+</ul>
+
+</nav>
+
+
+<header>
+
+<h1 id="bikesTitle">
+Available Bikes
+</h1>
+
+<p id="bikesDescription">
+Choose the bicycle that best suits your needs.
+</p>
+
+</header>
+
+
+<section class="cards">
+
+
+<div class="card">
+
+<h2 id="mountain">
+Mountain Bike
+</h2>
+
+<img src="images/bikesimages/mountainbike.jpg" alt="Mountain Bike" class="card-img">
+
+<p id="mountainText">
+Perfect for adventures, trails and outdoor rides.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="available">Available</span>
+</p>
+
+<button type="button" class="rent">
+Rent
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="city">
+City Bike
+</h2>
+
+<img src="images/bikesimages/citybike.jpg" alt="City Bike" class="card-img">
+
+<p id="cityText">
+Ideal for comfortable daily rides around the city.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="notAvailable">Not Available</span>
+</p>
+
+<button type="button" class="notAvailable" disabled>
+Not Available
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="electric">
+Electric Bike
+</h2>
+
+<img src="images/bikesimages/electricbike.jpg" alt="Electric Bike" class="card-img">
+
+<p id="electricText">
+Comfortable and modern for longer rides.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="available">Available</span>
+</p>
+
+<button type="button" class="rent">
+Rent
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="bmx">
+BMX Bike
+</h2>
+
+<img src="images/bikesimages/bmxbike.jpg" alt="BMX Bike" class="card-img">
+
+<p id="bmxText">
+Great for tricks, jumps and recreational riding.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="available">Available</span>
+</p>
+
+<button type="button" class="rent">
+Rent
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="road">
+Road Bike
+</h2>
+
+<img src="images/bikesimages/roadbike.jpg" alt="Road Bike" class="card-img">
+
+<p id="roadText">
+Fast and lightweight, perfect for long-distance rides.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="available">Available</span>
+</p>
+
+<button type="button" class="rent">
+Rent
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="hybrid">
+Hybrid Bike
+</h2>
+
+<img src="images/bikesimages/hybridbike.jpg" alt="Hybrid Bike" class="card-img">
+
+<p id="hybridText">
+A comfortable combination for city and outdoor rides.
+</p>
+
+<p>
+<strong>Status:</strong>
+<span class="available">Available</span>
+</p>
+
+<button type="button" class="rent">
+Rent
+</button>
+
+</div>
+
+
+</section>
+
+
+<footer>
+
+<p id="footer">
+© 2026 RKBikes
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+<script src="idiomas.js"></script>
+
+</body>
+
+</html>
